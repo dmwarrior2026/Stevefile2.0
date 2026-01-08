@@ -5,19 +5,19 @@ from logging.handlers import RotatingFileHandler
 
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8232714396:AAGNo8slrpL0YtgpjwwB341TZQjGYyP8JO0")
-API_ID = int(os.environ.get("API_ID", "20247467"))
-API_HASH = os.environ.get("API_HASH", "8ab4a0d75eec6fe40b85144c2c0ff418")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8276240787:AAGtb81sFGyqWLg1FAzp4YY6bvfaumVllNk")
+API_ID = int(os.environ.get("API_ID", "28161954"))
+API_HASH = os.environ.get("API_HASH", "959e221b1eadb259c4156b1a18d066b2")
 
 
-OWNER_ID = int(os.environ.get("OWNER_ID", "7314923110"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1496229374"))
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://stevefile21:5zw54mpHKO74bzuA@stevefile21.f3v0zfn.mongodb.net/?appName=stevefile21")
 DB_NAME = os.environ.get("DB_NAME", "stevefile21")
 
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002681239733"))
 
-FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1003555778914"))
+FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1003511273805"))
 
 FORCE_SUB_CHANNEL_2 = int(os.environ.get("FORCE_SUB_CHANNEL_2", "0"))
 
@@ -75,7 +75,7 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝐒𝐨𝐫𝐫𝐲 {first} Yo
 
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6299192020)
+ADMINS.append(1496229374)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
